@@ -1,0 +1,27 @@
+{
+  "name": "zonky-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "tsc": "tsc && babel ./src --out-dir ./dist --extensions '.ts' --source-maps",
+    "build": "tsc && babel ./src --out-dir ./dist --extensions '.ts'"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.5.3"
+  }
+}
